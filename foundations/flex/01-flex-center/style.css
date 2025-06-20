@@ -3,6 +3,8 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .box {
@@ -12,4 +14,10 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  align-self: center;
 }
+
+
+/* align-content: center ne fonctionne que si flex-wrap: wrap est activé (sinon, il est ignoré).
+Puisque votre conteneur n'a qu'un seul enfant (.box), align-content n'a aucun effet.
+ */ 

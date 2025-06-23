@@ -1,16 +1,20 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+
 }
 
 img {
   width: 100px;
   height: 100px;
+  display: block;
 }
 
-.title {
+h1 {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 900; 
 }
+
+
 
 /* do not edit this footer */
 .footer {
@@ -24,3 +28,34 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+.adep{
+  display: flex;
+  gap:52px;
+
+  justify-content: center;
+}
+
+
+.child{
+  width: 200px;
+  
+}
+
+
+
+
+
+/* 
+
+
+
+All items are centered on the page (horizontally, not vertically).
+The title is centered on the page.
+There is 32px between the title and the 'items.'
+There is 52px between each item.
+
+The item text is centered.
+
+*/

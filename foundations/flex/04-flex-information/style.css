@@ -1,12 +1,11 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
-  display: block;
 }
 
 h1 {
@@ -32,15 +31,13 @@ h1 {
 
 .adep{
   display: flex;
-  gap:52px;
-
   justify-content: center;
+  gap:52px;
 }
 
 
 .child{
   width: 200px;
-  
 }
 
 

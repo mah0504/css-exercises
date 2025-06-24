@@ -39,30 +39,27 @@ input {
   align-items: center;
 }
 
-
-.footer  .right-links , .header .right-links{
-  display: flex;
-  justify-content: end;
-  /* background-color: aqua;  */
-  gap: 20px;
+/* Reset des marges/padding sur les listes */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-
-
-.header  .left-links , .footer .left-links{
+/* Header et Footer en flex */
+.header, .footer {
   display: flex;
-  justify-content: start;
-  gap:20px;
+  justify-content: space-between; /* Sépare gauche/droite */
+  padding: 16px;
 }
+
+/* Configuration des groupes de liens */
+.left-links, .right-links {
+  display: flex;
+  gap: 20px; /* Espace entre les liens */
+} 
 
 
 .footer{
-  background-color: #eee;  
-
+  background-color: #eee;
 }
-
-
-/* .right-links{
-  text-decoration: none;
-  gap: 15px;
-} */

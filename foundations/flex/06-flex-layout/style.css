@@ -7,12 +7,13 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-   /* align-items: center;  */
+  justify-content: space-between; 
 
 }
 
 img {
   width: 600px;
+  align-self: center;
 } 
 
 
@@ -34,14 +35,34 @@ input {
 
 .content{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  background-color: aqua;
 }
 
-.buttons{
+
+.footer  .right-links , .header .right-links{
   display: flex;
-
-  background-color: blue;
-  align-items: center;
+  justify-content: end;
+  /* background-color: aqua;  */
+  gap: 20px;
 }
 
+
+
+.header  .left-links , .footer .left-links{
+  display: flex;
+  justify-content: start;
+  gap:20px;
+}
+
+
+.footer{
+  background-color: #eee;  
+
+}
+
+
+/* .right-links{
+  text-decoration: none;
+  gap: 15px;
+} */
